@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="todo-list">To-Do List</h1>
+      <form action="[value]" method="post">
+        <input type="text" id="input-task" />
+        <button id="add-task-button">ADD TASK</button>
+        <ul id="task-list">
+          <li>
+            <input type="checkbox" />
+            <span class="task">Email David</span>
+            <button class="delete-btn">
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+              />
+            </button>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <span class="task">Create ideal user persona guide</span>
+            <button class="delete-btn">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAk1BMVEX/////SUj8///9SUn/SEr/SUb6S0b+//3/Pj/7S0n8REf8Skb92tz/RUX5Oz35zMz85uf6e3n59vb4XFr4qav5Zmf9MzH5wML7Ojb1ur76VFb4cnb68PH539/2ubnxcHH5bmz7nZ39lpj6TU/5tbL7RT706uX12tXz0c/8iIb5gH/7k5D0rajznp3xhYT0m5X3NSi38nrcAAAFE0lEQVRoge1a7VarOhBNMgkEMKHVNuVUi60U9Vqvnvd/ujvQTyABWlvW/eFe2qVpYDOZycxOAiG/+MX/BveI2919ka6eHyKgSlGIHp5f0sWVCe4mU2OkzClwQHCguZTGTCd312JYrOZGKqCCcvwtsf0TlDTz1TUMmi219Dh1gHtSL2c/pZgnCgQOjwPABahk/hOaODOcAgRODmQJKFBusvhCitGHCSP37StUynyMLuFIlQJP9CQBT6v0fI6xobQnBRWCY1czPpNiFIY9CU4QhmcNWayFdz6JJ/QZ/p8lLVHrBuci6R3Mf8wFDFuA+dPTDuOe4Z3GeKaXLXES8ctJOCQ9/DLSfQPXAZF3x1iYX2zGzpg87OIYh5c7ZEfihR2zMjU/Y9giac0wT+oaHJSqNreM1Q+9voNuGbDYBFfhEFFLHGeqZ/3oAA9U5uKYmeg6o4WZ769r4s+5laMQQVIKEJWMhv8KKYtPuzEOU2aJ48F4nn2uQWTV1kwE688sz+zXUEc+Xip78sXbvzLymonKMwuFrew1c3gR1NLGsdBWK3B8dRH1bIFzaD9iOEYKRgybRwmqImuO0DbVt5LCEsACIrMgfsHyrjO+e27BM/1WcPhkYSLbAARCrmxu92zVMOL6bsvhs3cT7Z6Zg3nDhqKVvGuwlGrg3rzJcWesFVeE/zBWshDGYglAyx8ds7LNxy8/rJoDuGmq8Ym0daUgN4TtuvgslREPAp4ns30bfrlR9jwhJw2SqT03Ymjd71l8n3xKlKWBTMnWuILjPlP24qCmDRKHeIhATX3m700hn9jPrMmuxcevporbwxhMnWPhLiRyyQ6D47PvJPl3b0bhp6V9mEuSehCnzr5UJOO974vbbjYHHyHHuOU6Wa9dL9apuH0iob/YYcTwxgcfEfalqbtay5cayWObfhD68PQVsI1sSds8f6z1n7s7l5avDs9/YCBs1caBeKiRRI6UvQVEyaROglPLnlEOTwZRtf89tdeSI0x6jKmtQ7qUDebN6rbCkyPNH8HNrGpK2iXLccn6VCPpkhCCm4o4iE3rABcIziaJQlGZW4vcMdGPaFrSNVxKvVWuYHdJlxKsk3Q6Xuh3VnU8e+8IYFp3fEcIC0CH+NUrfHRL64g1QrhjMkI9tLaYdQRYvTa2ppXGJNnbsm6bKs200pog5el0r2zcTaRdqpRoJMi2VF9JXGy6PCm95NttSzPVtxWtzSnHo0yeT1jYxjkEzaLlLL88+TrWRSwgSRDUW3qXX5eQ4NG0UhZRrvAIbTvWMP/BEccWIeGURN+HLj75TjwUXcLDxmO0bWRvSeQQdyicS6lYSpWJCYpOgAJyshcshC2F9UKbuHPIVIUii+3s+Dw8MgTJupBhhefXMrMkC7tMdQhuKHZLSmnNUpTCO9Xr8cikpSllq8UpDsG90GCxhHs8MHEhrWcJwL7cRrj4KqUqm/3FQOi/dHAuggRHeU3ipPYt5DFhsXYkVsciyLmcCzIQXx8SeGWFgMpbY6t1rAq4ttcye03BVpULEVSzFC/PBiLqSKyuhekwS+xBNguG2fa42gaO+nBzkKf8KhxUt+4QDrGpNsz2ICHhT73SY6NzmC3bQTafh9lGH+ZAYJijjWEOaYY5biLnH5zh6uLcgzMyzBHgMIeZpDyWDSnQWx7LFhjggLmkuf1ReYHKoX+xA1188NIT1zr0L3H71xd22L6IwYsXMfhNXsQ4wW1fKfnFL87FfyZGVsByRezzAAAAAElFTkSuQmCC"
+                alt=""
+              />
+            </button>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <span class="task">Set up A/B test</span>
+            <button class="delete-btn">
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+              />
+            </button>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </body>
+</html>
